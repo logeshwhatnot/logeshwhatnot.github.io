@@ -5,4 +5,9 @@
 layout: default
 ---
 
-# Hello, World!
+# Hello, World! Logesh here!!
+
+<div class="social-links">
+  <a href="https://twitter.com/{{ site.social.twitter }}">twitter</a> |
+  <a href="https://github.com/{{ site.social.github }}">github</a>
+</div>
