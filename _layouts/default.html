@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}</title>
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-    {{ content }}
+    <nav class="main-nav">
+        <h1 class="header"> logesh </h1>
+      <div class="section-headers">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/blogs.html' | relative_url }}">Blogs</a>
+        <a href="{{ '/projects.html' | relative_url }}">Projects</a>
+      </div>
+    </nav>
+    <main>
+        <!-- {{ content }} -->
+    </main>
 </body>
 </html>

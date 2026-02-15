@@ -26,9 +26,10 @@ url: "https://logeshwhatever.xyz" # the base hostname & protocol for your site, 
 social:
   twitter: 0Logesh0
   github:  logeshwhatnot
+  substack: logeshcrafts
 
 # Build settings
-theme: minima
+
 plugins:
   - jekyll-feed
 

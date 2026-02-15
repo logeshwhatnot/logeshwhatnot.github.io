@@ -5,9 +5,10 @@
 layout: default
 ---
 
-# Hello, World! Logesh here!!
+# Logesh Mudliyar
 
 <div class="social-links">
   <a href="https://twitter.com/{{ site.social.twitter }}">twitter</a> |
-  <a href="https://github.com/{{ site.social.github }}">github</a>
+  <a href="https://github.com/{{ site.social.github }}">github</a> |
+  <a href="https://substack.com/{{ site.social.substack }}">substack</a>
 </div>
